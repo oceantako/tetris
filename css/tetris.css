@@ -1,0 +1,123 @@
+.matome {
+    position: relative;
+    margin: 10px auto;
+    width: 300px;
+}
+.kekka {
+    opacity: 0;
+    position: absolute;
+    left: -19px;
+    top: 150px;
+    width: 340px;
+    height: 220px;
+    background: rgba(177, 219, 224, 0.384);
+}
+.kekka.kekkahyouzi {
+    opacity: 0.85;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    width: 300px;
+    height: 580px;
+    background: rgb(54, 143, 179);
+    text-align: center;
+}
+.blockcount {
+    margin-top: 60px;
+    font-size: 25px;
+    line-height: 30px;
+}
+.tetrisrank {
+    font-size: 25px;
+    line-height: 30px;
+}
+.aboutrank {
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 30px;
+}
+.tetris_table {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    margin: 10px auto;
+    table-layout: fixed;
+    background-color: black;
+    border: 3px rgb(54, 143, 179) solid;
+    border-collapse: collapse;
+}
+
+table.tetris_table tr.goal {
+    border-bottom: 2px rgb(54, 143, 179) solid;
+}
+table.tetris_table td {
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    line-height: 0px;
+    border: 1px white solid;
+}
+table.tetris_table td.red {
+    background-color: rgb(54, 143, 179);
+    /* border: 1px rgb(0, 0, 0) solid; */
+}
+table.tetris_table td.blue {
+    background-color: rgb(54, 143, 179);
+}
+table.tetris_table td.green {
+    background-color: rgb(54, 143, 179);
+}
+table.tetris_table td.orange {
+    background-color: rgb(54, 143, 179);
+}
+table.tetris_table td.yellow {
+    background-color: rgb(54, 143, 179);
+}
+table.tetris_table td.pink {
+    background-color: rgb(54, 143, 179);
+}
+table.tetris_table td.brown {
+    background-color: rgb(54, 143, 179);
+}
+.yokonarabi {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 580px;
+    left: 100px;
+}
+/* .tetris_button {
+    margin: auto;
+    display: inline-block;
+    height: 36px;
+    width: 140px;
+    text-align: center;
+    font-size: 27px;
+    cursor: pointer;
+    text-decoration: none;
+    background: rgb(136, 132, 132);
+    color: rgb(104, 101, 101);
+    box-shadow: 0px 2px 2px rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: -1px -1px rgb(179, 175, 175), 1px 1px rgb(48, 47, 47);
+} */
+.tetris_button {
+    display: inline-block;
+    max-width: 180px;
+    text-align: left;
+    border: 2px solid rgb(54, 143, 179);
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: .4s;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.tetris_button:hover {
+    background-color: #000;
+    border-color: rgb(88, 133, 151);
+    color: snow;
+}
